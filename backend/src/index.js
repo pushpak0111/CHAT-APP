@@ -13,7 +13,7 @@ const PORT = process.env.PORT;
 app.use(express.json()); // allow to use json data in request body
 app.use(cookieParser());
 
-app.use("/api/auth", authRoutes)
+app.use("/api/auth", authRoutes);
 
 
 
